@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Beranda — CV Sinergi Kreasi</title>
+  <meta name="description" content="CV Sinergi Kreasi — pengolahan & analisis data, pemrograman web, serta layanan katering dan kue kering." />
+  <link rel="icon" href="assets/favicon-64.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="min-h-screen flex flex-col">
+
+<header class="sticky top-0 z-20 bg-white/80 backdrop-blur border-b border-slate-200">
+  <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/logo.png" alt="CV Sinergi Kreasi logo" class="h-10 w-10 object-contain rounded-md" />
+      <div class="leading-tight">
+        <div class="font-extrabold tracking-tight">CV Sinergi Kreasi</div>
+        <div class="text-sm smallmuted -mt-0.5">Data • Software • Kuliner</div>
+      </div>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-6">
+      <a data-nav href="index.html" class="navlink">Beranda</a>
+      <a data-nav href="layanan-software.html" class="navlink">Layanan Software</a>
+      <a data-nav href="layanan-data.html" class="navlink">Layanan Data</a>
+      <a data-nav href="layanan-katering.html" class="navlink">Catering</a>
+      <a data-nav href="layanan-kue.html" class="navlink">Kue Kering</a>
+      <a data-nav href="kontak.html" class="navlink">Kontak</a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <a class="btn btn-accent hidden sm:inline-flex js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin konsultasi." href="#">WhatsApp</a>
+      <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg border border-slate-200" aria-label="Buka menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+    <div class="container mx-auto px-4 py-3 flex flex-col gap-3">
+      <a data-nav href="index.html" class="navlink">Beranda</a>
+      <a data-nav href="layanan-software.html" class="navlink">Layanan Software</a>
+      <a data-nav href="layanan-data.html" class="navlink">Layanan Data</a>
+      <a data-nav href="layanan-katering.html" class="navlink">Catering</a>
+      <a data-nav href="layanan-kue.html" class="navlink">Kue Kering</a>
+      <a data-nav href="kontak.html" class="navlink">Kontak</a>
+      <a class="btn btn-accent js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin konsultasi." href="#">Chat WhatsApp</a>
+    </div>
+  </div>
+</header>
+<main class='flex-1'>
+
+<section class="hero-grad">
+  <div class="container mx-auto px-4 py-14">
+    <div class="grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="badge">CV • Data • Software • Kuliner</span>
+        <h1 class="mt-4 text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
+          CV Sinergi Kreasi
+        </h1>
+        <p class="mt-4 text-lg smallmuted">
+          Solusi Data, Software, dan Kuliner untuk kebutuhan Anda. Kami membantu kebutuhan <b>pengolahan & analisis data</b>, <b>pengembangan website</b>,
+          serta <b>catering</b> dan <b>kue kering</b> untuk berbagai acara.
+        </p>
+
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a class="btn btn-primary js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin konsultasi layanan." href="#">Konsultasi Gratis</a>
+          <a class="btn border border-slate-200 bg-white" href="layanan-software.html">Lihat Layanan</a>
+        </div>
+
+        <div class="mt-6 smallmuted">
+          Kontak cepat: <span class="js-phone font-semibold"></span> • <span class="js-email font-semibold"></span>
+        </div>
+      </div>
+
+      <div class="card p-8">
+        <div class="flex items-center gap-4">
+          <img src="assets/logo.png" alt="CV Sinergi Kreasi logo" class="h-20 w-20 object-contain" />
+          <div>
+            <div class="font-extrabold text-xl">CV Sinergi Kreasi</div>
+            <div class="smallmuted">Berbasis di Surabaya</div>
+            <div class="mt-2 badge badge-soft">Grand Harvest Cluster Derryl</div>
+          </div>
+        </div>
+
+        <hr class="soft my-6" />
+
+        <div class="grid sm:grid-cols-2 gap-4">
+          <div class="p-4 rounded-xl border border-slate-200">
+            <div class="font-bold">Data & Analitik</div>
+            <p class="smallmuted mt-1">Cleaning, analisis, dashboard, report.</p>
+          </div>
+          <div class="p-4 rounded-xl border border-slate-200">
+            <div class="font-bold">Website & Software</div>
+            <p class="smallmuted mt-1">Company profile, landing page, web app.</p>
+          </div>
+          <div class="p-4 rounded-xl border border-slate-200">
+            <div class="font-bold">Catering</div>
+            <p class="smallmuted mt-1">Nasi box & snack box untuk acara.</p>
+          </div>
+          <div class="p-4 rounded-xl border border-slate-200">
+            <div class="font-bold">Kue Kering</div>
+            <p class="smallmuted mt-1">Nastar, putri salju, kastengel, dll.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container mx-auto px-4 py-12">
+    <div class='mb-6'><h2 class='text-2xl md:text-3xl font-extrabold tracking-tight'>Layanan Utama</h2><p class='smallmuted mt-2'>Pilih kategori layanan untuk melihat detail paket, estimasi harga, dan alur pemesanan.</p></div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <a href="layanan-software.html" class="card p-6 hover:shadow-lg transition">
+        <div class="badge">Software</div>
+        <h3 class="mt-3 text-xl font-extrabold">Pengembangan Website</h3>
+        <p class="mt-2 smallmuted">Landing page, company profile, e-commerce, hingga web app.</p>
+        <div class="mt-4 link">Lihat paket →</div>
+      </a>
+      <a href="layanan-data.html" class="card p-6 hover:shadow-lg transition">
+        <div class="badge">Data</div>
+        <h3 class="mt-3 text-xl font-extrabold">Pengolahan & Analisis Data</h3>
+        <p class="mt-2 smallmuted">Data cleaning, analitik, dashboard (Power BI/Looker Studio), report.</p>
+        <div class="mt-4 link">Lihat paket →</div>
+      </a>
+      <a href="layanan-katering.html" class="card p-6 hover:shadow-lg transition">
+        <div class="badge">Kuliner</div>
+        <h3 class="mt-3 text-xl font-extrabold">Catering & Snack Box</h3>
+        <p class="mt-2 smallmuted">Nasi box dan snack box untuk rapat, acara keluarga, dan event.</p>
+        <div class="mt-4 link">Lihat paket →</div>
+      </a>
+      <a href="layanan-kue.html" class="card p-6 hover:shadow-lg transition lg:col-span-3">
+        <div class="badge">Kuliner</div>
+        <h3 class="mt-3 text-xl font-extrabold">Kue Kering</h3>
+        <p class="mt-2 smallmuted">Nastar, putri salju, kastengel, dan varian lainnya. Bisa request ukuran & kemasan.</p>
+        <div class="mt-4 link">Lihat paket →</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container mx-auto px-4 pb-12">
+    <div class='mb-6'><h2 class='text-2xl md:text-3xl font-extrabold tracking-tight'>Alur Kerja Singkat</h2><p class='smallmuted mt-2'>Sederhana, jelas, dan bisa disesuaikan dengan kebutuhan Anda.</p></div>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="card p-6">
+        <div class="badge">1</div>
+        <div class="mt-3 font-extrabold text-lg">Konsultasi</div>
+        <p class="mt-2 smallmuted">Ceritakan kebutuhan, target, budget, dan deadline.</p>
+      </div>
+      <div class="card p-6">
+        <div class="badge">2</div>
+        <div class="mt-3 font-extrabold text-lg">Penawaran & Pengerjaan</div>
+        <p class="mt-2 smallmuted">Kami susun paket/estimasi, lalu mulai eksekusi sesuai kesepakatan.</p>
+      </div>
+      <div class="card p-6">
+        <div class="badge">3</div>
+        <div class="mt-3 font-extrabold text-lg">Revisi & Serah Terima</div>
+        <p class="mt-2 smallmuted">Revisi sesuai paket, lalu serah terima file/produk.</p>
+      </div>
+    </div>
+
+    <div class="mt-8 card p-6 flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div>
+        <div class="font-extrabold text-xl">Siap mulai?</div>
+        <div class="smallmuted mt-1">Klik tombol WhatsApp untuk konsultasi dan dapatkan rekomendasi paket terbaik.</div>
+      </div>
+      <a class="btn btn-accent js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin konsultasi layanan." href="#">Konsultasi via WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="mt-auto">
+  <div class="container mx-auto px-4 py-10">
+    <div class="card p-6">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div>
+          <div class="font-extrabold text-lg">CV Sinergi Kreasi</div>
+          <p class="smallmuted mt-2">Pengolahan data, analisis data, pemrograman web, serta layanan catering dan kue kering.</p>
+        </div>
+        <div>
+          <div class="font-bold">Kontak</div>
+          <div class="mt-2 smallmuted">
+            <div>WA / Telepon: <span class="js-phone font-semibold"></span></div>
+            <div>Email: <span class="js-email font-semibold"></span></div>
+          </div>
+          <div class="mt-3">
+            <a class="btn btn-primary js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya tertarik dengan layanan Anda." href="#">Hubungi via WhatsApp</a>
+          </div>
+        </div>
+        <div>
+          <div class="font-bold">Alamat</div>
+          <div class="mt-2 smallmuted js-address"></div>
+          <div class="mt-3">
+            <a class="link" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&query=Grand%20Harvest%20Cluster%20Derryl%20Surabaya">
+              Buka di Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="soft my-6" />
+      <div class="text-sm smallmuted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <div>© 2026 CV Sinergi Kreasi. All rights reserved.</div>
+        <div>Template statis • cocok untuk GitHub Pages/Netlify/Cloudflare Pages</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>

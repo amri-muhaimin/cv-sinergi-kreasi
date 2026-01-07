@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Layanan Data — CV Sinergi Kreasi</title>
+  <meta name="description" content="CV Sinergi Kreasi — pengolahan & analisis data, pemrograman web, serta layanan katering dan kue kering." />
+  <link rel="icon" href="assets/favicon-64.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body class="min-h-screen flex flex-col">
+
+<header class="sticky top-0 z-20 bg-white/80 backdrop-blur border-b border-slate-200">
+  <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="assets/logo.png" alt="CV Sinergi Kreasi logo" class="h-10 w-10 object-contain rounded-md" />
+      <div class="leading-tight">
+        <div class="font-extrabold tracking-tight">CV Sinergi Kreasi</div>
+        <div class="text-sm smallmuted -mt-0.5">Data • Software • Kuliner</div>
+      </div>
+    </a>
+
+    <nav class="hidden md:flex items-center gap-6">
+      <a data-nav href="index.html" class="navlink">Beranda</a>
+      <a data-nav href="layanan-software.html" class="navlink">Layanan Software</a>
+      <a data-nav href="layanan-data.html" class="navlink">Layanan Data</a>
+      <a data-nav href="layanan-katering.html" class="navlink">Catering</a>
+      <a data-nav href="layanan-kue.html" class="navlink">Kue Kering</a>
+      <a data-nav href="kontak.html" class="navlink">Kontak</a>
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <a class="btn btn-accent hidden sm:inline-flex js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin konsultasi." href="#">WhatsApp</a>
+      <button id="mobileMenuBtn" class="md:hidden p-2 rounded-lg border border-slate-200" aria-label="Buka menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobileMenu" class="md:hidden hidden border-t border-slate-200 bg-white">
+    <div class="container mx-auto px-4 py-3 flex flex-col gap-3">
+      <a data-nav href="index.html" class="navlink">Beranda</a>
+      <a data-nav href="layanan-software.html" class="navlink">Layanan Software</a>
+      <a data-nav href="layanan-data.html" class="navlink">Layanan Data</a>
+      <a data-nav href="layanan-katering.html" class="navlink">Catering</a>
+      <a data-nav href="layanan-kue.html" class="navlink">Kue Kering</a>
+      <a data-nav href="kontak.html" class="navlink">Kontak</a>
+      <a class="btn btn-accent js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin konsultasi." href="#">Chat WhatsApp</a>
+    </div>
+  </div>
+</header>
+<main class='flex-1'>
+
+<section class="hero-grad">
+  <div class="container mx-auto px-4 py-12">
+    <span class="badge">Layanan Data</span>
+    <h1 class="mt-4 text-3xl md:text-4xl font-extrabold tracking-tight">Pengolahan & Analisis Data</h1>
+    <p class="mt-3 text-lg smallmuted">Mulai dari data cleaning, analisis statistik, dashboard, hingga reporting untuk membantu keputusan bisnis lebih cepat.</p>
+    <div class="mt-6 flex flex-wrap gap-3">
+      <a class="btn btn-accent js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin konsultasi layanan data/analitik." href="#">Konsultasi Data</a>
+      <a class="btn border border-slate-200 bg-white" href="layanan-software.html">Lihat Layanan Software</a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container mx-auto px-4 py-12">
+    <div class='mb-6'><h2 class='text-2xl md:text-3xl font-extrabold tracking-tight'>Paket Layanan Data</h2><p class='smallmuted mt-2'>Harga menyesuaikan kompleksitas data, jumlah sumber, dan kebutuhan visualisasi.</p></div>
+    <div class="grid lg:grid-cols-3 gap-6">
+      
+    <div class="card p-6 flex flex-col">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-extrabold">Olah Data & Analisis (Basic)</h3>
+          <p class="smallmuted mt-1">Untuk kebutuhan cepat: rapikan data, hitung statistik, dan ringkasan insight.</p>
+        </div>
+        <span class="badge">Mulai Rp 150.000</span>
+      </div>
+      <ul class="mt-4 smallmuted space-y-2"><li class='flex gap-2'><span class='mt-1'>•</span><span>Data cleaning (format, missing value, duplikat)</span></li><li class='flex gap-2'><span class='mt-1'>•</span><span>Analisis deskriptif + ringkasan temuan</span></li><li class='flex gap-2'><span class='mt-1'>•</span><span>Output: Excel/CSV + laporan singkat (PDF)</span></li></ul>
+      <div class="mt-6 flex gap-3">
+        <a class="btn btn-primary js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin paket Olah Data & Analisis (Basic)." href="#">Pesan / Konsultasi</a>
+        <a class="btn border border-slate-200 bg-white" href="kontak.html">Tanya dulu</a>
+      </div>
+    </div>
+    
+      
+    <div class="card p-6 flex flex-col">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-extrabold">Dashboard (Power BI / Looker Studio)</h3>
+          <p class="smallmuted mt-1">Dashboard interaktif untuk memantau KPI (per report/dataset).</p>
+        </div>
+        <span class="badge">Mulai Rp 1.500.000</span>
+      </div>
+      <ul class="mt-4 smallmuted space-y-2"><li class='flex gap-2'><span class='mt-1'>•</span><span>Koneksi sumber data (Excel/Sheets/CSV/DB ringan)</span></li><li class='flex gap-2'><span class='mt-1'>•</span><span>1–3 halaman dashboard (KPI, tren, breakdown)</span></li><li class='flex gap-2'><span class='mt-1'>•</span><span>Revisi sesuai paket + panduan penggunaan</span></li></ul>
+      <div class="mt-6 flex gap-3">
+        <a class="btn btn-primary js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin paket Dashboard (Power BI/Looker Studio)." href="#">Pesan / Konsultasi</a>
+        <a class="btn border border-slate-200 bg-white" href="kontak.html">Tanya dulu</a>
+      </div>
+    </div>
+    
+      
+    <div class="card p-6 flex flex-col">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <h3 class="text-xl font-extrabold">Data Analyst Bulanan</h3>
+          <p class="smallmuted mt-1">Pendampingan rutin: analisis, dashboard, report, dan ad-hoc request.</p>
+        </div>
+        <span class="badge">Mulai Rp 2,5 juta/bulan</span>
+      </div>
+      <ul class="mt-4 smallmuted space-y-2"><li class='flex gap-2'><span class='mt-1'>•</span><span>Prioritas request harian/mingguan</span></li><li class='flex gap-2'><span class='mt-1'>•</span><span>Pembuatan report berkala</span></li><li class='flex gap-2'><span class='mt-1'>•</span><span>Otomasi sederhana (opsional)</span></li><li class='flex gap-2'><span class='mt-1'>•</span><span>Durasi 30 hari / per bulan</span></li></ul>
+      <div class="mt-6 flex gap-3">
+        <a class="btn btn-primary js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya ingin paket Data Analyst Bulanan." href="#">Pesan / Konsultasi</a>
+        <a class="btn border border-slate-200 bg-white" href="kontak.html">Tanya dulu</a>
+      </div>
+    </div>
+    
+    </div>
+
+    <div class="mt-8 card p-6">
+      <div class="font-extrabold text-lg">Format data yang bisa kami terima</div>
+      <p class="smallmuted mt-2">Excel, Google Sheets, CSV, atau export sistem (mis. POS/ERP). Jika data masih mentah/acak, tidak masalah — kita rapikan dulu.</p>
+      <div class="mt-4 flex flex-wrap gap-2">
+        <span class="badge badge-soft">Excel</span>
+        <span class="badge badge-soft">Google Sheets</span>
+        <span class="badge badge-soft">CSV</span>
+        <span class="badge badge-soft">Power BI</span>
+        <span class="badge badge-soft">Looker Studio</span>
+        <span class="badge badge-soft">Python (opsional)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="mt-auto">
+  <div class="container mx-auto px-4 py-10">
+    <div class="card p-6">
+      <div class="grid md:grid-cols-3 gap-6">
+        <div>
+          <div class="font-extrabold text-lg">CV Sinergi Kreasi</div>
+          <p class="smallmuted mt-2">Pengolahan data, analisis data, pemrograman web, serta layanan catering dan kue kering.</p>
+        </div>
+        <div>
+          <div class="font-bold">Kontak</div>
+          <div class="mt-2 smallmuted">
+            <div>WA / Telepon: <span class="js-phone font-semibold"></span></div>
+            <div>Email: <span class="js-email font-semibold"></span></div>
+          </div>
+          <div class="mt-3">
+            <a class="btn btn-primary js-wa" data-wa-text="Halo CV Sinergi Kreasi, saya tertarik dengan layanan Anda." href="#">Hubungi via WhatsApp</a>
+          </div>
+        </div>
+        <div>
+          <div class="font-bold">Alamat</div>
+          <div class="mt-2 smallmuted js-address"></div>
+          <div class="mt-3">
+            <a class="link" target="_blank" rel="noopener"
+               href="https://www.google.com/maps/search/?api=1&query=Grand%20Harvest%20Cluster%20Derryl%20Surabaya">
+              Buka di Google Maps
+            </a>
+          </div>
+        </div>
+      </div>
+      <hr class="soft my-6" />
+      <div class="text-sm smallmuted flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
+        <div>© 2026 CV Sinergi Kreasi. All rights reserved.</div>
+        <div>Template statis • cocok untuk GitHub Pages/Netlify/Cloudflare Pages</div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
